@@ -8,6 +8,7 @@ export default function Home() {
           Welcome to matchalink
         </h1>
         <button>Get Started</button>
+        <p>Ok</p>
       </div>
     </main>
   );
