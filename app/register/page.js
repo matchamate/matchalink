@@ -5,10 +5,11 @@ import { useRouter } from 'next/navigation'
 import { FcGoogle } from 'react-icons/fc'
 
 export default function Register () {
-  const router = useRouter
+  const router = useRouter()
   const onSubmitForm = (e) => {
     e.preventDefault()
     console.log('hello World')
+    router.push('/dashboard')
   }
   return (
     <div className="w-screen h-screen grid place-content-center text-black bg-super-light">
